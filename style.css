@@ -17,6 +17,7 @@ body{ /*todo o conteudo visual da pagina*/
     justify-content: space-between; /*espaco entre as colunas, podendo se utilizar do gap*/
     margin: 10% 15%; 
 }
+
 .apresentacao_conteudo{ /*tag section - coluna esquerda*/
     display:flex; /*caixas - H1, P e Div*/
     flex-direction: column;
