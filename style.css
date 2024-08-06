@@ -44,6 +44,7 @@ p{ /*paragrafo*/
     display:flex;
     justify-content: space-between; /*espaco entre as caixas*/
     flex-direction: row;
+    gap: 40px;
 }
 .apresentacao_links_link{ /*tag a*/
     width: 280px;
@@ -56,4 +57,16 @@ p{ /*paragrafo*/
     color: #000000;
     font-family: 'Montserrat', sans-serif;
     padding: 21.5px 0;
+}
+@media (max-width: 1200px){ /*adaptando o site para utilizar no celular e em telas menores*/
+    .apresentacao{
+        padding: 5%;
+        flex-direction: column-reverse;
+    }
+    .apresentacao_conteudo{
+        width: 100%;
+    }
+    .apresentacao_imagem{
+        width: 50%;
+    }
 }
